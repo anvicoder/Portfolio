@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ab7ae812f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/download.png" class="logo">
+            <ul id="sidemenu"> 
+                 <li><a href="#header">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#services">Services</a></li>
+                 <li><a href="#portfolio">Portfolio</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                 <i class="fas fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-ellipsis-vertical" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi,<br> I'm <span>Anviksha </span><br> Patel From India</h1>
+        </div>
+    </div>
+
+   </div>
+  <!---------------about--------------->
+   <div id="about">
+    <div class="about">
+        <div class="row">
+            <div class="about-col-1">
+                
+                <img src="images/second.png" alt="Minimized Image" width="600" height="720">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hi, my name is Anviksha Patel, a 2024 B.Tech grad.I am embibed with a passion for Coding and Leadership.
+                    My journey in Computer Science and Engineering began when in class 8th, 
+                    I had a fear to not even print a statement in HTML where my classmates were able 
+                    to do it within a second. 
+                    My firm belief to not only pass the exams but also to write umpteen number of lines of code
+                     landed me here. The grind to achieve what's not a cup of tea for me is #ANVIKSHA.
+                     I beileve we must do what our brain tells us "Dude! that's impossible" 
+                     because the word itself say's I'M POSSIBLE. Since then, I've had the privilege of pursuing career in CS. I'm proud to have received Harvard Women Engineer's Code Conference Scholarship and volunteer Google as a Developer's Student Club Lead.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">  Skills</p>
+                <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                <p class="tab-links" onclick="opentab('education')"> Education</p>
+            </div> 
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                    <li><span>App Development</span><br>Building Android apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 - 2023</span><br>Community Manager of Google Developer Student Club BBDEC</li>
+                    <li><span>2022 - 2023</span><br>Vice Chairperson Geeks for Geeks Student Chapter</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020-2024</span><br>B.Tech - Babu Banarasi Das Engineering College, Lucknow</li>
+                    <li><span>2019-2020</span><br>Intermediate (12th)- Huddard High School, Kanpur</li>
+                    <li><span>2017-2018</span><br>High School (10th) - Huddard High School, Kanpur</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+   </div>
+</div>
+<!-----------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                
+                <h2>UI/UX</h2>
+                <p> As a UI/UX designer, my passion is to create visually stunning and user-friendly digital experiences that captivate and engage users.
+
+                    With Canva's versatile design tools at my fingertips, I craft intuitive interfaces and seamless interactions that elevate user satisfaction and drive business success.
+                    
+                    From wireframes to pixel-perfect prototypes, I meticulously iterate and refine designs, ensuring they align with brand aesthetics and user needs.
+                    
+                    Collaborating seamlessly with cross-functional teams, I turn ideas into delightful realities, shaping the digital landscape one click at a time.
+                    
+                    Let's collaborate on your next project and transform your vision into an exceptional user experience with the power of Canva's design capabilities.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>  I'm eager to embark on a creative journey of crafting beautiful and functional websites.
+
+                    Armed with a passion for aesthetics and a thirst for knowledge, I'm dedicated to learning and staying updated with the latest design trends and technologies.
+                    
+                    My commitment to user-centered design means I prioritize creating intuitive and accessible web experiences for every visitor.
+                    
+                    I'm excited to collaborate with clients and colleagues to turn ideas into visually compelling and responsive web solutions.
+                    
+                    Let's work together to bring your online presence to life and create a website that not only looks great but also delivers a seamless user experience.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>App Design</h2>
+                <p>  I'm enthusiastic about diving into the world of coding to create functional and user-friendly applications.
+
+                    With a strong foundation in programming languages like Java and Python, I'm eager to tackle basic app development challenges and expand my skills.
+                    
+                    My focus is on building simple, yet effective mobile apps that cater to users' needs while ensuring a smooth and responsive interface.
+                    
+                    I'm excited to collaborate with others, share ideas, and learn from experienced developers to refine my craft.
+                    
+                    Let's embark on a journey of app development together, where I can help bring your basic app ideas to life and continue to grow as a developer.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+    
+<!---------------portfolio------------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work 1.jpeg">
+               
+                <div class="layer">
+                    <h3>Chatbot Android Application</h3>
+                    <p>This app is used to solve doubts and queries, translates multiple languages and can be used for chat purpose </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+            <div class="work">
+                <img src="images/work 2.jpeg">
+            
+            <div class="layer">
+                <h3>One page resume </h3>
+                <p>A one page resume to print and that can be downloaded in pdf format from chrome browser. </p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+            <div class="work">
+                <img src="images/work 3.jpeg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>A website that introduces my work and experience. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            
+            </div>
+            
+                
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-----------------------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+             <p><i class="fa-solid fa-paper-plane"></i>anvikshapatel040202@gmail.com</p>
+             <p><i class="fa-solid fa-phone-volume"></i>+91 914-051-1798</p>
+             <div class="social-icons">
+                <a href="https://www.linkedin.com/in/anviksha-patel-538142215/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/anvicoder"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.blogger.com/profile/03695731995925229742"><i class="fa-brands fa-blogger"></i></a>
+                <a href="https://www.instagram.com/para_grapher/"><i class="fa-brands fa-instagram"></i></a>
+                
+             </div>
+             <a href="images/Resume Anviksha.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your good name please!" required>
+                    <input type="email" name="Email" placeholder="Hmm! Your email. " required>
+                    <textarea name="Message" rows="6" placeholder="Type your message here..."></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy;  Anviksha. Made with <i class="fa-regular fa-heart"></i> by me.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right=0;
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzsfy7o-L-gf7YevzRytYtBLppNgVAQW2_v8DdO7S2TVrcqGDT_jUB9f9qnOTlImN8i/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Vola! Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
